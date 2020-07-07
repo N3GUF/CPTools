@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspaces\\CDNAppSupport\\FileSystemCleanup\\FileSystemCleanup.csproj",
+      "projectUniqueName": "C:\\repos\\CDNAppSupport\\FileSystemCleanup\\FileSystemCleanup.csproj",
       "projectName": "FileSystemCleanup",
-      "projectPath": "C:\\Workspaces\\CDNAppSupport\\FileSystemCleanup\\FileSystemCleanup.csproj",
+      "projectPath": "C:\\repos\\CDNAppSupport\\FileSystemCleanup\\FileSystemCleanup.csproj",
       "packagesPath": "C:\\Users\\dbernhardy\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspaces\\CDNAppSupport\\FileSystemCleanup\\obj\\",
+      "outputPath": "C:\\repos\\CDNAppSupport\\FileSystemCleanup\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dbernhardy\\AppData\\Roaming\\NuGet\\NuGet.Config",

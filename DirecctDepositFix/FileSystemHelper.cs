@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Comdata.AppSupport.AppTools;
+using System;
 using System.IO;
-using Comdata.AppSupport.AppTools;
+using System.Linq;
 
 namespace Comdata.AppSupport.DirectDepositFix
 {

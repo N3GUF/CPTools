@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspaces\\CDNAppSupport\\FileSysytemReplicator\\FileSysytemReplicater.csproj": {}
+    "C:\\repos\\CDNAppSupport\\FileSysytemReplicator\\FileSysytemReplicater.csproj": {}
   },
   "projects": {
-    "C:\\Workspaces\\CDNAppSupport\\FileSysytemReplicator\\FileSysytemReplicater.csproj": {
+    "C:\\repos\\CDNAppSupport\\FileSysytemReplicator\\FileSysytemReplicater.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspaces\\CDNAppSupport\\FileSysytemReplicator\\FileSysytemReplicater.csproj",
+        "projectUniqueName": "C:\\repos\\CDNAppSupport\\FileSysytemReplicator\\FileSysytemReplicater.csproj",
         "projectName": "FileSysytemReplicater",
-        "projectPath": "C:\\Workspaces\\CDNAppSupport\\FileSysytemReplicator\\FileSysytemReplicater.csproj",
+        "projectPath": "C:\\repos\\CDNAppSupport\\FileSysytemReplicator\\FileSysytemReplicater.csproj",
         "packagesPath": "C:\\Users\\dbernhardy\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspaces\\CDNAppSupport\\FileSysytemReplicator\\obj\\",
+        "outputPath": "C:\\repos\\CDNAppSupport\\FileSysytemReplicator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dbernhardy\\AppData\\Roaming\\NuGet\\NuGet.Config",

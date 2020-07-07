@@ -1,8 +1,4 @@
 ﻿using Comdata.AppSupport.AppTools;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Comdata.AppSupport.DirectDepositFix
 {

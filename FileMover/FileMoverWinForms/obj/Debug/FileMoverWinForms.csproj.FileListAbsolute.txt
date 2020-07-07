@@ -7,3 +7,11 @@ C:\Workspaces\CDNAppSupport\FileMover\FileMoverWinForms\obj\Debug\FileMover.exe
 C:\Workspaces\CDNAppSupport\FileMover\FileMoverWinForms\obj\Debug\FileMover.pdb
 C:\Workspaces\CDNAppSupport\FileMover\FileMoverWinForms\obj\Debug\FileMoverWinForms.csprojAssemblyReference.cache
 C:\Workspaces\CDNAppSupport\FileMover\FileMoverWinForms\obj\Debug\FileMoverWinForms.csproj.CoreCompileInputs.cache
+C:\repos\CDNAppSupport\FileMover\FileMoverWinForms\bin\Debug\FileMover.exe
+C:\repos\CDNAppSupport\FileMover\FileMoverWinForms\bin\Debug\FileMover.pdb
+C:\repos\CDNAppSupport\FileMover\FileMoverWinForms\obj\Debug\Comdata.AppSupport.FileMover.MainForm.resources
+C:\repos\CDNAppSupport\FileMover\FileMoverWinForms\obj\Debug\Comdata.AppSupport.FileMover.Properties.Resources.resources
+C:\repos\CDNAppSupport\FileMover\FileMoverWinForms\obj\Debug\FileMoverWinForms.csproj.GenerateResource.cache
+C:\repos\CDNAppSupport\FileMover\FileMoverWinForms\obj\Debug\FileMoverWinForms.csproj.CoreCompileInputs.cache
+C:\repos\CDNAppSupport\FileMover\FileMoverWinForms\obj\Debug\FileMover.exe
+C:\repos\CDNAppSupport\FileMover\FileMoverWinForms\obj\Debug\FileMover.pdb
