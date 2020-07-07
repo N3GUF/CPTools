@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LogPath>F:\data\Logs\FileSystemReplicator</LogPath>
+  <LoggingSeverityLevel>Debug</LoggingSeverityLevel>
+  <FoldersToReplicate>
+    <Folder>
+      <Source>F:\Data\OWS_WORK\Data\Reports\Invoice</Source>
+      <Destination>G:\Data\Reports\invoices</Destination>
+      <IncludeSubfolders>true</IncludeSubfolders>
+      <Exclusions>
+		<string>F:\Data\OWS_WORK\Data\Reports\Invoice\hold</string>
+		<string>F:\Data\OWS_WORK\Data\Reports\Invoice\10000143.pdf</string>
+      </Exclusions>
+    </Folder>
+  </FoldersToReplicate>
+</Settings>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FileMoverSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LogPath>W:\Logs\PPOLFileMover</LogPath>
+  <LoggingSeverityLevel>Debug</LoggingSeverityLevel>
+  <FilesToMove>
+    <FileToMove>
+      <Source>C:\MCONLINE\MFE\DOWNLOAD\TT140T0*</Source>
+      <Destination>\\cdnbwdata1\plsdbatch\reports\IPM_SUBMISSION_*</Destination>
+      <Operation>Move</Operation>
+    </FileToMove>
+    <FileToMove>
+      <Source>C:\MCONLINE\MFE\DOWNLOAD\TT461T0*</Source>
+      <Destination>W:\incoming\MFE\*</Destination>
+      <Operation>Move</Operation>
+    </FileToMove>
+    <FileToMove>
+      <Source>C:\MCONLINE\MFE\DOWNLOAD\TT464T0*</Source>
+      <Destination>W:\incoming\MFE\MDS\*</Destination>
+      <Operation>Move</Operation>
+    </FileToMove>
+  </FilesToMove>
+</FileMoverSettings>

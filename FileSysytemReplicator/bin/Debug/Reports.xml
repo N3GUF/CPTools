@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LogPath>c:\Logs\FileSystemReplicator</LogPath>
+  <LoggingSeverityLevel>Debug</LoggingSeverityLevel>
+  <FoldersToReplicate>
+    <Folder>
+      <Source>C:\#transfer\test</Source>
+      <Destination>\\usatldfs01.fleetcor.com\IT Infrastructure\Production Control\don</Destination>
+      <IncludeSubfolders>true</IncludeSubfolders>
+      <Exclusions>
+		<string>r:\test</string>
+      </Exclusions>
+    </Folder>
+  </FoldersToReplicate>
+</Settings>

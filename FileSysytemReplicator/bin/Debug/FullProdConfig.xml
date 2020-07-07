@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LogPath>w:\Logs\FileSystemReplicator</LogPath>
+  <LoggingSeverityLevel>Info</LoggingSeverityLevel>
+  <FoldersToReplicate>
+    <Folder>
+      <Source>W:\</Source>
+      <Destination>\\usbldppdbatwp01.pci.fleetcor.com\plsdprod\</Destination>
+      <IncludeSubfolders>true</IncludeSubfolders>
+      <Exclusions>
+        <string>W:\incoming</string>
+        <string>W:\inprocess</string>
+        <string>W:\outgoing</string>
+        <string>W:\OWS_TEMP</string>
+        <string>W:\ows_work\data</string>
+        <string>W:\processed</string>
+        <string>W:\BMC</string>
+        <string>W:\classes</string>
+		<string>W:\IPM_Hotfix</string>
+		<string>W:\Jars</string>
+		<string>W:\Logs</string>
+		<string>W:\mconline</string>
+		<string>W:\MFE_TEST</string>
+		<string>W:\MigrationWork</string>
+		<string>W:\new_WAY4_jars</string>
+		<string>W:\RequestedItems</string>
+		<string>W:\SchedTasks</string>
+		<string>W:\sqldeveloper</string>
+		<string>W:\temp</string>
+		<string>W:\test</string>
+      </Exclusions>
+    </Folder>
+  </FoldersToReplicate>
+</Settings>

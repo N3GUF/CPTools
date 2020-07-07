@@ -1,0 +1,2 @@
+C:\Workspaces\CDNAppSupport\DirecctDepositFix\obj\Release\DirectDepositFix.csprojResolveAssemblyReference.cache
+C:\Workspaces\CDNAppSupport\DirecctDepositFix\obj\Release\DirectDepositFix.csproj.CoreCompileInputs.cache

@@ -1,0 +1,13 @@
+C:\Workspaces\tfsWork\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.csproj.CoreCompileInputs.cache
+C:\Workspaces\tfsWork\PPOLUnzipInvoices\bin\Debug\PPOLUnzipInvoices.exe.config
+C:\Workspaces\tfsWork\PPOLUnzipInvoices\bin\Debug\PPOLUnzipInvoices.exe
+C:\Workspaces\tfsWork\PPOLUnzipInvoices\bin\Debug\PPOLUnzipInvoices.pdb
+C:\Workspaces\tfsWork\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.exe
+C:\Workspaces\tfsWork\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.pdb
+C:\Workspaces\CDNAppSupport\PPOLUnzipInvoices\bin\Debug\PPOLUnzipInvoices.exe.config
+C:\Workspaces\CDNAppSupport\PPOLUnzipInvoices\bin\Debug\PPOLUnzipInvoices.exe
+C:\Workspaces\CDNAppSupport\PPOLUnzipInvoices\bin\Debug\PPOLUnzipInvoices.pdb
+C:\Workspaces\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.csprojAssemblyReference.cache
+C:\Workspaces\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.csproj.CoreCompileInputs.cache
+C:\Workspaces\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.exe
+C:\Workspaces\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.pdb

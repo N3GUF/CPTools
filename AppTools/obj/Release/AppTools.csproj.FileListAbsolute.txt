@@ -1,0 +1,5 @@
+C:\Workspaces\CDNAppSupport\AppTools\bin\Release\AppTools.dll
+C:\Workspaces\CDNAppSupport\AppTools\bin\Release\AppTools.pdb
+C:\Workspaces\CDNAppSupport\AppTools\obj\Release\AppTools.dll
+C:\Workspaces\CDNAppSupport\AppTools\obj\Release\AppTools.pdb
+C:\Workspaces\CDNAppSupport\AppTools\obj\Release\AppTools.csprojAssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\Workspaces\CDNAppSupport\AppTools\bin\Release\netstandard2.0\AppTools.deps.json
+C:\Workspaces\CDNAppSupport\AppTools\bin\Release\netstandard2.0\AppTools.dll
+C:\Workspaces\CDNAppSupport\AppTools\bin\Release\netstandard2.0\AppTools.pdb
+C:\Workspaces\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.AssemblyInfoInputs.cache
+C:\Workspaces\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.AssemblyInfo.cs
+C:\Workspaces\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.csproj.CoreCompileInputs.cache
+C:\Workspaces\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.dll
+C:\Workspaces\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.pdb
+C:\Workspaces\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.csprojAssemblyReference.cache

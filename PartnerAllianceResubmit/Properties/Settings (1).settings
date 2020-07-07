@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Comdata.AppSupport.PartnerAllianceResubmit.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PS14File" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\dbernhardy\Documents\Tickets\INC0136560\XP760.XP760.PS00014.11042014.1418555011</Value>
+    </Setting>
+    <Setting Name="PS15File" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\dbernhardy\Documents\Tickets\INC0136560\XP760.XP760.PS00015.11042014.1505040005</Value>
+    </Setting>
+    <Setting Name="LogPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\dbernhardy\Documents\Tickets\INC0136560</Value>
+    </Setting>
+    <Setting Name="LogThreshold" Type="Comdata.AppSupport.AppTools.Severity" Scope="Application">
+      <Value Profile="(Default)">Info</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

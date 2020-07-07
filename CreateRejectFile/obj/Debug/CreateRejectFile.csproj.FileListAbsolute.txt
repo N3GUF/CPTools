@@ -1,0 +1,22 @@
+c:\users\dmayo\documents\visual studio 2012\Projects\CreateRejectFile\CreateRejectFile\bin\Debug\CreateRejectFile.exe.config
+c:\users\dmayo\documents\visual studio 2012\Projects\CreateRejectFile\CreateRejectFile\bin\Debug\CreateRejectFile.exe
+c:\users\dmayo\documents\visual studio 2012\Projects\CreateRejectFile\CreateRejectFile\bin\Debug\CreateRejectFile.pdb
+c:\users\dmayo\documents\visual studio 2012\Projects\CreateRejectFile\CreateRejectFile\obj\Debug\CreateRejectFile.csprojResolveAssemblyReference.cache
+c:\users\dmayo\documents\visual studio 2012\Projects\CreateRejectFile\CreateRejectFile\obj\Debug\CreateRejectFile.formCreateRejectFile.resources
+c:\users\dmayo\documents\visual studio 2012\Projects\CreateRejectFile\CreateRejectFile\obj\Debug\CreateRejectFile.Properties.Resources.resources
+c:\users\dmayo\documents\visual studio 2012\Projects\CreateRejectFile\CreateRejectFile\obj\Debug\CreateRejectFile.csproj.GenerateResource.Cache
+c:\users\dmayo\documents\visual studio 2012\Projects\CreateRejectFile\CreateRejectFile\obj\Debug\CreateRejectFile.exe
+c:\users\dmayo\documents\visual studio 2012\Projects\CreateRejectFile\CreateRejectFile\obj\Debug\CreateRejectFile.pdb
+C:\CreateRejectFile\CreateRejectFile\bin\Debug\CreateRejectFile.exe.config
+C:\CreateRejectFile\CreateRejectFile\obj\Debug\CreateRejectFile.exe
+C:\CreateRejectFile\CreateRejectFile\obj\Debug\CreateRejectFile.pdb
+C:\Workspaces\CDNAppSupport\CreateRejectFile\bin\Debug\CreateRejectFile.exe.config
+C:\Workspaces\CDNAppSupport\CreateRejectFile\bin\Debug\CreateRejectFile.exe
+C:\Workspaces\CDNAppSupport\CreateRejectFile\bin\Debug\CreateRejectFile.pdb
+C:\Workspaces\CDNAppSupport\CreateRejectFile\obj\Debug\CreateRejectFile.formCreateRejectFile.resources
+C:\Workspaces\CDNAppSupport\CreateRejectFile\obj\Debug\CreateRejectFile.Properties.Resources.resources
+C:\Workspaces\CDNAppSupport\CreateRejectFile\obj\Debug\CreateRejectFile.csproj.GenerateResource.Cache
+C:\Workspaces\CDNAppSupport\CreateRejectFile\obj\Debug\CreateRejectFile.exe
+C:\Workspaces\CDNAppSupport\CreateRejectFile\obj\Debug\CreateRejectFile.pdb
+C:\Workspaces\CDNAppSupport\CreateRejectFile\obj\Debug\CreateRejectFile.csprojAssemblyReference.cache
+C:\Workspaces\CDNAppSupport\CreateRejectFile\obj\Debug\CreateRejectFile.csproj.CoreCompileInputs.cache

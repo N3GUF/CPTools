@@ -1,0 +1,13 @@
+C:\Workspaces\CDNAppSupport\PPOLZeroByteCheck\bin\Debug\PPOLZeroByteCheck.exe
+C:\Workspaces\CDNAppSupport\PPOLZeroByteCheck\bin\Debug\PPOLZeroByteCheck.pdb
+C:\Workspaces\CDNAppSupport\PPOLZeroByteCheck\bin\Debug\AppTools.dll
+C:\Workspaces\CDNAppSupport\PPOLZeroByteCheck\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Workspaces\CDNAppSupport\PPOLZeroByteCheck\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Workspaces\CDNAppSupport\PPOLZeroByteCheck\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Workspaces\CDNAppSupport\PPOLZeroByteCheck\bin\Debug\AppTools.pdb
+C:\Workspaces\CDNAppSupport\PPOLZeroByteCheck\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Workspaces\CDNAppSupport\PPOLZeroByteCheck\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Workspaces\CDNAppSupport\PPOLZeroByteCheck\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Workspaces\CDNAppSupport\PPOLZeroByteCheck\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Workspaces\CDNAppSupport\PPOLZeroByteCheck\obj\Debug\PPOLZeroByteCheck.exe
+C:\Workspaces\CDNAppSupport\PPOLZeroByteCheck\obj\Debug\PPOLZeroByteCheck.pdb

@@ -1,0 +1,13 @@
+C:\Workspaces\CDNAppSupport\UnCompressAndSignal\bin\Debug\UnCompressAndSignal.exe.config
+C:\Workspaces\CDNAppSupport\UnCompressAndSignal\bin\Debug\UnCompressAndSignal.exe
+C:\Workspaces\CDNAppSupport\UnCompressAndSignal\bin\Debug\UnCompressAndSignal.pdb
+C:\Workspaces\CDNAppSupport\UnCompressAndSignal\bin\Debug\AppTools.dll
+C:\Workspaces\CDNAppSupport\UnCompressAndSignal\bin\Debug\AppTools.Zip.dll
+C:\Workspaces\CDNAppSupport\UnCompressAndSignal\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Workspaces\CDNAppSupport\UnCompressAndSignal\bin\Debug\AppTools.pdb
+C:\Workspaces\CDNAppSupport\UnCompressAndSignal\bin\Debug\AppTools.Zip.pdb
+C:\Workspaces\CDNAppSupport\UnCompressAndSignal\obj\Debug\UnCompressAndSignal.csproj.CoreCompileInputs.cache
+C:\Workspaces\CDNAppSupport\UnCompressAndSignal\obj\Debug\UnCompressAndSignal.exe
+C:\Workspaces\CDNAppSupport\UnCompressAndSignal\obj\Debug\UnCompressAndSignal.pdb
+C:\Workspaces\CDNAppSupport\UnCompressAndSignal\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Workspaces\CDNAppSupport\UnCompressAndSignal\bin\Debug\ICSharpCode.SharpZipLib.xml

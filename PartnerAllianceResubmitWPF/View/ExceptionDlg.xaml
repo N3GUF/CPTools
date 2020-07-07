@@ -1,0 +1,19 @@
+﻿<Window x:Class="Comdata.AppSupport.PartnerAllianceResubmit.View.ExceptionDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Comdata.AppSupport.PartnerAllianceResubmit.View"
+        xmlns:vm="clr-namespace:Comdata.AppSupport.PartnerAllianceResubmit.ViewModel"
+        mc:Ignorable="d"
+        Title="An Error has Occurred" Height="180" Width="430" >
+    <Window.DataContext>
+        <vm:ExceptionDlgVM/>
+    </Window.DataContext>
+
+    <DockPanel LastChildFill="False">
+        <Label DockPanel.Dock="Top" Foreground="#696969" Content="{Binding ErrorMsg,FallbackValue='Error Message'}" />
+        <Rectangle DockPanel.Dock="Bottom" Height="64" Fill="#ECECEC" />
+        <Label DockPanel.Dock="Top" Content="{Binding ExceptionMsg,FallbackValue='Exception Message'}" VerticalContentAlignment="Center" />
+    </DockPanel>
+</Window>

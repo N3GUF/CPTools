@@ -1,0 +1,7 @@
+C:\Workspaces\tfsWork\PPOLUnzipInvoices\obj\Release\PPOLUnzipInvoices.csproj.CoreCompileInputs.cache
+C:\Workspaces\tfsWork\PPOLUnzipInvoices\bin\Release\PPOLUnzipInvoices.exe.config
+C:\Workspaces\tfsWork\PPOLUnzipInvoices\bin\Release\PPOLUnzipInvoices.exe
+C:\Workspaces\tfsWork\PPOLUnzipInvoices\bin\Release\PPOLUnzipInvoices.pdb
+C:\Workspaces\tfsWork\PPOLUnzipInvoices\obj\Release\PPOLUnzipInvoices.exe
+C:\Workspaces\tfsWork\PPOLUnzipInvoices\obj\Release\PPOLUnzipInvoices.pdb
+C:\Workspaces\tfsWork\PPOLUnzipInvoices\obj\Release\PPOLUnzipInvoices.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmit\bin\Release\PartnerAllianceResubmit.exe.config
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmit\obj\Release\PartnerAllianceResubmit.csprojResolveAssemblyReference.cache
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmit\bin\Release\PartnerAllianceResubmit.exe
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmit\bin\Release\PartnerAllianceResubmit.pdb
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmit\bin\Release\AppTools.dll
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmit\bin\Release\AppTools.pdb
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmit\obj\Release\PartnerAllianceResubmit.exe
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmit\obj\Release\PartnerAllianceResubmit.pdb

@@ -1,0 +1,18 @@
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\ComdataAppSupport\PartnerAllianceResubmit\PartnerAllianceResubmit\obj\Debug\PartnerAllianceResubmit.exe
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\ComdataAppSupport\PartnerAllianceResubmit\PartnerAllianceResubmit\obj\Debug\PartnerAllianceResubmit.pdb
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\ComdataAppSupport\PartnerAllianceResubmit\PartnerAllianceResubmit\bin\Debug\PartnerAllianceResubmit.exe.config
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\ComdataAppSupport\PartnerAllianceResubmit\PartnerAllianceResubmit\bin\Debug\PartnerAllianceResubmit.exe
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\ComdataAppSupport\PartnerAllianceResubmit\PartnerAllianceResubmit\bin\Debug\PartnerAllianceResubmit.pdb
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\ComdataAppSupport\PartnerAllianceResubmit\PartnerAllianceResubmit\bin\Debug\AppTools.dll
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\ComdataAppSupport\PartnerAllianceResubmit\PartnerAllianceResubmit\bin\Debug\AppTools.pdb
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\ComdataAppSupport\PartnerAllianceResubmit\PartnerAllianceResubmit\obj\Debug\CLPartnerAllianceResubmit.csprojResolveAssemblyReference.cache
+C:\Workspaces\ComdataAppSupport\PartnerAllianceResubmit\PartnerAllianceResubmit\bin\Debug\PartnerAllianceResubmit.exe.config
+C:\Workspaces\ComdataAppSupport\PartnerAllianceResubmit\PartnerAllianceResubmit\obj\Debug\PartnerAllianceResubmit.exe
+C:\Workspaces\ComdataAppSupport\PartnerAllianceResubmit\PartnerAllianceResubmit\obj\Debug\PartnerAllianceResubmit.pdb
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\Comdata.AppSupportTools\PartnerAllianceResubmit\PartnerAllianceResubmit\bin\Debug\PartnerAllianceResubmit.exe.config
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\Comdata.AppSupportTools\PartnerAllianceResubmit\PartnerAllianceResubmit\bin\Debug\PartnerAllianceResubmit.exe
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\Comdata.AppSupportTools\PartnerAllianceResubmit\PartnerAllianceResubmit\bin\Debug\PartnerAllianceResubmit.pdb
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\Comdata.AppSupportTools\PartnerAllianceResubmit\PartnerAllianceResubmit\bin\Debug\AppTools.pdb
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\Comdata.AppSupportTools\PartnerAllianceResubmit\PartnerAllianceResubmit\obj\Debug\CLPartnerAllianceResubmit.csprojResolveAssemblyReference.cache
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\Comdata.AppSupportTools\PartnerAllianceResubmit\PartnerAllianceResubmit\obj\Debug\PartnerAllianceResubmit.exe
+C:\Users\dbernhardy\Documents\Visual Studio 2013\Projects\Comdata.AppSupportTools\PartnerAllianceResubmit\PartnerAllianceResubmit\obj\Debug\PartnerAllianceResubmit.pdb

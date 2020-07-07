@@ -1,0 +1,324 @@
+﻿using Comdata.AppSupport.AppTools;
+using System;
+using System.ComponentModel;
+using System.IO;
+using System.Windows;
+using System.Windows.Forms;
+
+namespace Comdata.AppSupport.UpdateLoadCancelReject
+{
+    public partial class formCreateRejectFile : Form
+    {
+        string OutgoingPayrollPath = string.Empty;
+        string ProcessedPath = string.Empty;
+        bool UpdateRequired = false;
+        bool UpdateCompleted = false;
+        ILog log;
+        LoadCancelReject util;
+        DailyLCRReport report;
+        string achFiles = null;
+        string postingDates = null;
+        string sendScript;
+        string currentDirectory;
+
+        public formCreateRejectFile()
+        {
+            InitializeComponent();
+            log = new TextLogger(Properties.Settings.Default.LogPath, Properties.Settings.Default.LogThreshold);
+            log.AddSeverityLevel = true;
+            log.AddTimeStamp = true;
+
+            util = new LoadCancelReject(log);
+            util.ProcessedPath = Properties.Settings.Default.ProcessedPath;
+
+            report = new DailyLCRReport(log, Properties.Settings.Default.Connection);
+            report.BINPathname = @".\PPOLBinNumbers.txt";
+
+            this.sendScript = Properties.Settings.Default.SendScript;
+            this.currentDirectory = Environment.CurrentDirectory;
+            this.btnUpdatePayrollRejects.Enabled = false;
+            this.btnGenerateEmail.Enabled = false;
+            this.btnSendPayrollRejects.Enabled = false;
+            this.log.Write("Started Update Load Cancel Reject...");
+        }
+
+        /// <summary>
+        /// click handler for Browse button, opens file dialog for loading the reject file, and loads any REGIONS files in the working dir
+        /// </summary>
+        /// <param name="sender">object</param>
+        /// <param name="e">EventArgs</param>
+        private void btnBrowse_Click(object sender, EventArgs e)
+        {   
+            openFileDialog1.FileName = string.Empty;
+            openFileDialog1.InitialDirectory = Properties.Settings.Default.OutgoingPayrollPath;
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+                this.tbRejectFileName.Text = this.openFileDialog1.FileName;            
+        }
+
+        private void tbRejectFileName_TextChanged(object sender, EventArgs e)
+        {
+            this.tbRejectFile.Clear();
+
+            if (File.Exists(tbRejectFileName.Text))
+            {
+                util.LoadRejectData(tbRejectFileName.Text);
+                tbRejectFile.AppendText(util.RejectData);
+                this.UpdateRequired = willUpdateBeRequired();
+                updateStatus("Loaded: " + Path.GetFileName(tbRejectFileName.Text));
+            }
+        }
+
+        private bool willUpdateBeRequired()
+        {
+            string messageBoxText = "Do you need to add credits to this file?";
+            string caption = "Is an Update Required";
+            MessageBoxButton button = MessageBoxButton.YesNo;
+            MessageBoxImage icon = MessageBoxImage.Question;
+            System.Windows.MessageBoxResult result = System.Windows.MessageBox.Show(messageBoxText, caption, button, icon);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                this.log.Write("User indicated an update to the load cancel file is required.");
+                this.btnUpdatePayrollRejects.Enabled = true;
+                this.btnGenerateEmail.Enabled = false;
+                this.btnSendPayrollRejects.Enabled = false;
+                return true;
+            }
+            else
+            {
+                this.log.Write("User indicated an update to the load cancel file is not required.");
+                this.btnUpdatePayrollRejects.Enabled = false;
+                this.btnGenerateEmail.Enabled = true;
+                this.btnSendPayrollRejects.Enabled = false;
+                createBackupAndSentCopies();
+                return false;
+            }
+        }
+
+        private void createBackupAndSentCopies()
+        {
+            createBackupCopy(tbRejectFileName.Text.Trim());
+            createSentCopy(tbRejectFileName.Text.Trim());
+
+            if (InvokeRequired)
+
+                statusStrip.BeginInvoke((Action)(() =>
+                {
+                    this.junk.Text = "Backup and sent copies created.";
+                }));
+            else
+            {
+                this.junk.Text = "Backup and sent copies created.";
+            }
+        }
+
+        /// <summary>
+        /// click handler for Create button and main processing logic
+        /// </summary>
+        /// <param name="sender">object</param>
+        /// <param name="e">EventArgs</param>
+        private void btnCreate_Click(object sender, EventArgs e)
+        {
+            BackgroundWorker worker = new BackgroundWorker();
+            worker.DoWork += worker_DoWork;
+            worker.RunWorkerCompleted += worker_RunWorkerCompleted;
+            worker.RunWorkerAsync();
+        }
+
+        void worker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            if (util.CreditsNotAdded.Count == 0)
+            {
+                if (InvokeRequired)
+                    statusStrip.BeginInvoke((Action)(() =>
+                    {
+                        this.junk.Text = "Load Cancel Reject file has been backed up and then updated.";
+                    }));
+                else
+                {
+                    this.junk.Text = "Load Cancel Reject file has been backed up and then updated.";
+                }
+
+                this.btnUpdatePayrollRejects.Enabled = false;
+                this.btnGenerateEmail.Enabled = true;
+                UpdateCompleted = true;
+            }
+            else
+                if (InvokeRequired)
+                    statusStrip.BeginInvoke((Action)(() =>
+                    {
+                        this.junk.Text = "Couldn't update the Load Cancel Reject file, bcause all credits were not found. Please try again.";
+                    }));
+                else
+                {
+                    this.junk.Text = "Couldn't update the Load Cancel Reject file, bcause all credits were not found. Please try again.";
+                }
+        }
+
+        void worker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            loadData();
+            var rejectData = tbRejectFile.Text;
+            var fname = tbRejectFileName.Text.Trim();
+            var result = util.Update(tbPostingDates.Text, tbContractNumbers.Text, tbCreditAmounts.Text, ref rejectData);
+
+            if (result > 0)
+            {
+                return;
+            }
+
+            // finally, do the final refresh of the Text property from the ArrayList, repositioning the cursor at TOF
+            if (InvokeRequired)
+                tbRejectFile.BeginInvoke((Action)(() =>
+                {
+                    tbRejectFile.Text = "";
+                    tbRejectFile.AppendText(util.RejectData);
+                    tbRejectFile.Text.TrimEnd(Environment.NewLine.ToCharArray());
+                }));
+            else
+            {
+                tbRejectFile.Text = "";
+                tbRejectFile.AppendText(util.RejectData);
+                tbRejectFile.Text.TrimEnd(Environment.NewLine.ToCharArray());
+            }
+
+            createBackupCopy(fname);
+            File.Delete(fname);
+
+            using (StreamWriter sw = new StreamWriter(fname))
+                sw.Write(util.RejectData);
+
+            this.log.Write("The Load Cancel Reject file has been updated.");
+            createSentCopy(fname);
+        }
+        
+        private void loadData()
+        {
+            tbRejectFileName.Text = openFileDialog1.FileName.ToString();
+            util.PostingDates = this.tbPostingDates.Text;
+            util.LoadAchData(out achFiles, out postingDates);
+
+            if (InvokeRequired)
+
+                tbREGIONSFiles.BeginInvoke((Action)(() =>
+                {
+                    tbREGIONSFiles.Text = achFiles;
+                    tbPostingDates.Text = postingDates;
+                }));
+            else
+            {
+                tbREGIONSFiles.Text = achFiles;
+                tbPostingDates.Text = postingDates;
+            }
+        }
+
+        private void createSentCopy(string fname)
+        {
+            var sentDir = Path.Combine(Path.GetDirectoryName(fname), @"sent\SENT_TO_REGIONS");
+            sentDir += DateTime.Now.ToString("_MM_dd_yy");
+            var dest = Path.Combine(sentDir, Path.GetFileName(fname));
+
+            if (!Directory.Exists(sentDir))
+                Directory.CreateDirectory(sentDir);
+
+            if (!File.Exists(dest))
+            {
+                File.Copy(fname, dest);
+                this.log.Write("{0} has been copied up to {1}.", fname, dest);
+            }
+        }
+
+        private void createBackupCopy(string fname)
+        {
+            var backupPath = Path.Combine(Path.GetDirectoryName(fname), "backup");
+            var dest = Path.Combine(backupPath, Path.GetFileName(fname));
+
+            if (!File.Exists(dest))
+            {
+                File.Copy(fname, dest);
+                this.log.Write("{0} has been backed up to {1}.", fname, dest);
+            }
+        }
+
+        /// <summary>
+        /// Generate Daily Email Text that accompanies the Reject File sent to Regions
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnGenerateEmail_Click(object sender, EventArgs e)
+        {
+            this.log.Write("");
+            this.log.Write("Creating Payroll Rejects Email.");
+
+            report.CreateReport(tbRejectFile.Lines);
+            System.Diagnostics.Process.Start(report.EmailFileName);
+
+            if (this.UpdateRequired && this.UpdateCompleted)
+                this.btnSendPayrollRejects.Enabled = true;
+
+            if (!this.UpdateRequired)
+                this.btnSendPayrollRejects.Enabled = true;
+        }
+
+        private void btnSendPayrollRejects_Click(object sender, EventArgs e)
+        {
+            this.log.Write("");
+            this.log.Write("Sending Payroll Rejects to Regions.");
+            System.Diagnostics.Process.Start(this.sendScript);
+
+            if (InvokeRequired)
+
+                statusStrip.BeginInvoke((Action)(() =>
+                {
+                    this.junk.Text = "Sending Payroll Rejects to Regions.";
+                }));
+            else
+            {
+                this.junk.Text = "Sending Payroll Rejects to Regions.";
+            }
+        }
+
+        /// <summary>
+        /// error dialog box
+        /// </summary>
+        /// <param name="p">string</param>
+        private void ShowDialog(string p)
+        {
+            string messageBoxText = p;
+            string caption = "Error";
+            MessageBoxButton button = MessageBoxButton.OK;                ;
+            MessageBoxImage icon = MessageBoxImage.Stop;
+            System.Windows.MessageBox.Show(messageBoxText, caption, button, icon);
+        }
+
+        private void formCreateRejectFile_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (this.btnSendPayrollRejects.Enabled)
+            {
+                string messageBoxText = "Do you want to exit without sending Reject file to Regions?";
+                string caption = "Reject File has not been Sent";
+                MessageBoxButton button = MessageBoxButton.YesNo;
+                MessageBoxImage icon = MessageBoxImage.Question;
+                System.Windows.MessageBoxResult result = System.Windows.MessageBox.Show(messageBoxText, caption, button, icon);
+
+                if (result == MessageBoxResult.No)
+                    e.Cancel = true; 
+            }
+        }
+
+        private void updateStatus(string text)
+        {
+            if (InvokeRequired)
+                statusStrip.BeginInvoke((Action)(() =>
+                {
+                    this.junk.Text = text;
+                }));
+            else
+            {
+                this.junk.Text = text;
+            }
+
+        }
+    }
+}

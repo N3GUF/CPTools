@@ -1,0 +1,9 @@
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Release\FileSystemMonitorService.exe.config
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Release\FileSystemMonitorService.exe
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Release\FileSystemMonitorService.pdb
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\obj\Release\FileSystemMonitorService.exe
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\obj\Release\FileSystemMonitorService.pdb
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Release\AppTools.dll
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Release\AppTools.pdb
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\obj\Release\FileSystemMonitorService.csprojResolveAssemblyReference.cache
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\obj\Release\FileSystemMonitorService.csproj.CoreCompileInputs.cache

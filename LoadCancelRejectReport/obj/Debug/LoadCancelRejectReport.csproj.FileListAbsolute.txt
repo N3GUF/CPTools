@@ -1,0 +1,8 @@
+C:\Workspaces\CDNAppSupport\LoadCancelRejectReport\bin\Debug\LoadCancelRejectReport.exe.config
+C:\Workspaces\CDNAppSupport\LoadCancelRejectReport\bin\Debug\LoadCancelRejectReport.exe
+C:\Workspaces\CDNAppSupport\LoadCancelRejectReport\bin\Debug\LoadCancelRejectReport.pdb
+C:\Workspaces\CDNAppSupport\LoadCancelRejectReport\bin\Debug\AppTools.dll
+C:\Workspaces\CDNAppSupport\LoadCancelRejectReport\bin\Debug\AppTools.pdb
+C:\Workspaces\CDNAppSupport\LoadCancelRejectReport\obj\Debug\LoadCancelRejectReport.exe
+C:\Workspaces\CDNAppSupport\LoadCancelRejectReport\obj\Debug\LoadCancelRejectReport.pdb
+C:\Workspaces\CDNAppSupport\LoadCancelRejectReport\obj\Debug\LoadCancelRejectReport.csprojResolveAssemblyReference.cache

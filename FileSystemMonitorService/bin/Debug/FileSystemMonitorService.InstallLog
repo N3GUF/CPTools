@@ -1,0 +1,173 @@
+﻿Installing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Installing service FileSystemMonitorService...
+Service FileSystemMonitorService has been successfully installed.
+Creating EventLog source FileSystemMonitorService in log Application...
+Committing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Uninstalling assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Removing EventLog source FileSystemMonitorService.
+Service FileSystemMonitorService is being removed from the system...
+Service FileSystemMonitorService was successfully removed from the system.
+Installing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Installing service FileSystemMonitorService...
+Service FileSystemMonitorService has been successfully installed.
+Creating EventLog source FileSystemMonitorService in log Application...
+Committing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Uninstalling assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Removing EventLog source CDN File System Monitor.
+Service CDN File System Monitor is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Installing service CDN File System Monitor...
+Service CDN File System Monitor has been successfully installed.
+Creating EventLog source CDN File System Monitor in log Application...
+Committing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Uninstalling assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Removing EventLog source CDN File System Monitor.
+Service CDN File System Monitor is being removed from the system...
+Service CDN File System Monitor was successfully removed from the system.
+Installing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Installing service CDN File System Monitor...
+Service CDN File System Monitor has been successfully installed.
+Creating EventLog source CDN File System Monitor in log Application...
+Committing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Uninstalling assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Removing EventLog source CDN File System Monitor.
+Service CDN File System Monitor is being removed from the system...
+Service CDN File System Monitor was successfully removed from the system.
+Installing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Installing service CDN File System Monitor...
+Service CDN File System Monitor has been successfully installed.
+Creating EventLog source CDN File System Monitor in log Application...
+Committing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Uninstalling assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Removing EventLog source CDN File System Monitor.
+Service CDN File System Monitor is being removed from the system...
+Service CDN File System Monitor was successfully removed from the system.
+Uninstalling assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Removing EventLog source CDN File System Monitor.
+Warning: The source CDN File System Monitor is not registered on the local machine.
+Service CDN File System Monitor is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Installing service CDN File System Monitor...
+Service CDN File System Monitor has been successfully installed.
+Creating EventLog source CDN File System Monitor in log Application...
+Committing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Uninstalling assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Removing EventLog source CDN File System Monitor.
+Service CDN File System Monitor is being removed from the system...
+Service CDN File System Monitor was successfully removed from the system.
+Installing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Installing service CDN File System Monitor...
+Service CDN File System Monitor has been successfully installed.
+Creating EventLog source CDN File System Monitor in log Application...
+Committing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Uninstalling assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Removing EventLog source CDN File System Monitor.
+Service CDN File System Monitor is being removed from the system...
+Service CDN File System Monitor was successfully removed from the system.
+Installing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+Installing service CDN File System Monitor...
+Service CDN File System Monitor has been successfully installed.
+Creating EventLog source CDN File System Monitor in log Application...
+Committing assembly 'C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.InstallLog
+   assemblypath = C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe

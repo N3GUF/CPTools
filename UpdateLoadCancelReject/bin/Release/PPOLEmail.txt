@@ -1,0 +1,40 @@
+These are the amounts for the Payroll Reject File sent on 08/29/2015.
+
+Credits:
+
+10000038	MAC'S CONVENIENCE STORES LLC
+	101949799        	       311.92	948035              	STAPLES,CHRISTOPHER      
+
+10000654	CALLOS MANAGEMENT COMPANY INC
+	103117782        	       598.31	000000167726889     	JOHNSON, LEVI J          
+
+10001488	AUSTIN MATERIALS LLC
+	103206467        	       938.30	11052               	LOPEZ ROBERTO            
+
+30000369	AMERICAN POOL MGMT OF MD
+	103153866        	       320.78	CPS 000-00-0000     	PALAUKOU, ANDREI      KT 
+
+Total Credits:			     2,169.31
+
+Debits:
+
+10001277	APEX SYSTEMS
+	103102615        	         0.31	405QW2222HE5DJQ     	MICHAEL WYATT            
+	103191353        	        25.00	523339919087755     	8344528495KEYSUMMER L    
+
+10001590	CR ENGLAND INC
+	102952303        	       974.12	309955088           	POWELL ERIKA             
+
+30000011	POTBELLY SANDWICH
+	103213142        	       965.23	582178290000002     	STEVEN COOPER            
+
+30000012	THE SALVATION ARMY
+	100682401        	        78.95	3225560             	JOSEPH *IRVIN IVERY      
+	100682401        	         0.62	4830167379          	Auth                     
+
+40000038	AMERIDIAL INC
+	5115164164691029 	        29.85	SCM:32817120        	SAULSBERRYMELANIE C      
+
+Total Debits:			     2,074.08
+
+File Total Credits:		        95.23

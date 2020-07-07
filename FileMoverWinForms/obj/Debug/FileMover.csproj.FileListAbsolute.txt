@@ -1,0 +1,11 @@
+C:\Documents and Settings\DBernhardy\My Documents\Visual Studio 2010\Projects\FileMover\FileMover\bin\Debug\FileMover.exe
+C:\Documents and Settings\DBernhardy\My Documents\Visual Studio 2010\Projects\FileMover\FileMover\bin\Debug\FileMover.pdb
+C:\Documents and Settings\DBernhardy\My Documents\Visual Studio 2010\Projects\FileMover\FileMover\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\DBernhardy\My Documents\Visual Studio 2010\Projects\FileMover\FileMover\obj\Debug\FileMover.MainForm.resources
+C:\Documents and Settings\DBernhardy\My Documents\Visual Studio 2010\Projects\FileMover\FileMover\obj\Debug\FileMover.Properties.Resources.resources
+C:\Documents and Settings\DBernhardy\My Documents\Visual Studio 2010\Projects\FileMover\FileMover\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\DBernhardy\My Documents\Visual Studio 2010\Projects\FileMover\FileMover\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\DBernhardy\My Documents\Visual Studio 2010\Projects\FileMover\FileMover\obj\Debug\FileMover.exe
+C:\Documents and Settings\DBernhardy\My Documents\Visual Studio 2010\Projects\FileMover\FileMover\obj\Debug\FileMover.pdb
+C:\Users\dbernhardy\Documents\Visual Studio 2010\Projects\FileMover\FileMover\obj\Debug\FileMover.exe
+C:\Users\dbernhardy\Documents\Visual Studio 2010\Projects\FileMover\FileMover\obj\Debug\FileMover.pdb

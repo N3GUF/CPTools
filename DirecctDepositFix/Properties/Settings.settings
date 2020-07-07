@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Comdata.AppSupport.DirectDepositFix.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LogPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">W:\Logs\DirectDepositFix</Value>
+    </Setting>
+    <Setting Name="LoggingThreshold" Type="Comdata.AppSupport.AppTools.Severity" Scope="Application">
+      <Value Profile="(Default)">Info</Value>
+    </Setting>
+    <Setting Name="ProcessedDir" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">W:\Processed</Value>
+    </Setting>
+    <Setting Name="BackupDir" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">W:\processed\backup</Value>
+    </Setting>
+    <Setting Name="SendDir" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">W:\outgoing\mellon</Value>
+    </Setting>
+    <Setting Name="SendScript" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">W:\bin\DirectDepositFTPUtility.bat</Value>
+    </Setting>
+    <Setting Name="FilemePattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PLSD.DDTransmission_Outgoing_*.dat</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,14 @@
+C:\Workspaces\tfsWork\PartnerAllianceResubmitWPF\obj\Debug\PartnerAllianceResubmit.csprojResolveAssemblyReference.cache
+C:\Workspaces\tfsWork\PartnerAllianceResubmitWPF\obj\Debug\View\MainWindow.g.cs
+C:\Workspaces\tfsWork\PartnerAllianceResubmitWPF\obj\Debug\App.g.cs
+C:\Workspaces\tfsWork\PartnerAllianceResubmitWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Workspaces\tfsWork\PartnerAllianceResubmitWPF\obj\Debug\PartnerAllianceResubmit_MarkupCompile.cache
+C:\Workspaces\tfsWork\PartnerAllianceResubmitWPF\obj\Debug\PartnerAllianceResubmit_MarkupCompile.lref
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmitWPF\obj\Debug\PartnerAllianceResubmit.csprojAssemblyReference.cache
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmitWPF\obj\Debug\View\MainWindow.g.cs
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmitWPF\obj\Debug\App.g.cs
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmitWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmitWPF\obj\Debug\PartnerAllianceResubmit_MarkupCompile.cache
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmitWPF\obj\Debug\PartnerAllianceResubmit_MarkupCompile.lref
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmitWPF\obj\Debug\PartnerAllianceResubmit.exe
+C:\Workspaces\CDNAppSupport\PartnerAllianceResubmitWPF\obj\Debug\PartnerAllianceResubmit.pdb

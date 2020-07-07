@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OrVhpN5vSBGTk4vjt5chf9vSjm1utnhdPqA7cdLHPbYXoL93+Bu5vV/CjFfR3axJW2rcBIGmegw2dN7DUprK8A==",
+  "success": true,
+  "projectFilePath": "C:\\repos\\CDNAppSupport\\AppTools\\AppTools.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dbernhardy\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\dbernhardy\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

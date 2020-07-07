@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogPath>W:\Logs\PPOLZeroByteCheck</LogPath>
+  <LoggingSeverityLevel>Debug</LoggingSeverityLevel>
+  <IncommingPath>W:\Incomming\Cardholder</IncommingPath>
+  <ProcessedPath>W:\Processed</ProcessedPath>
+  <InputFilePattern>.CardholderCreate_</InputFilePattern>
+  <ResponseFileFormat>.CardholderCreateResponse_YYMMDD.HHMMSS.tsv</ResponseFileFormat>
+</Settings>

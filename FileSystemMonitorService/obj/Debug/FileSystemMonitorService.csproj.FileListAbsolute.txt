@@ -1,0 +1,8 @@
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\AppTools.dll
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe.config
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.exe
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\FileSystemMonitorService.pdb
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\obj\Debug\FileSystemMonitorService.exe
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\obj\Debug\FileSystemMonitorService.pdb
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\obj\Debug\FileSystemMonitorService.csprojResolveAssemblyReference.cache
+C:\Workspaces\CDNAppSupport\FileSystemMonitorService\bin\Debug\AppTools.pdb

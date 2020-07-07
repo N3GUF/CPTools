@@ -1,0 +1,14 @@
+C:\Workspaces\CDNAppSupport\UpdateLoadCancelReject\bin\Release\UpdateLoadCancelReject.exe.config
+C:\Workspaces\CDNAppSupport\UpdateLoadCancelReject\obj\Release\UpdateLoadCancelReject.csproj.GenerateResource.Cache
+C:\Workspaces\CDNAppSupport\UpdateLoadCancelReject\bin\Release\UpdateLoadCancelReject.exe
+C:\Workspaces\CDNAppSupport\UpdateLoadCancelReject\bin\Release\UpdateLoadCancelReject.pdb
+C:\Workspaces\CDNAppSupport\UpdateLoadCancelReject\bin\Release\AppTools.dll
+C:\Workspaces\CDNAppSupport\UpdateLoadCancelReject\bin\Release\AppTools.pdb
+C:\Workspaces\CDNAppSupport\UpdateLoadCancelReject\obj\Release\UpdateLoadCancelReject.exe
+C:\Workspaces\CDNAppSupport\UpdateLoadCancelReject\obj\Release\UpdateLoadCancelReject.pdb
+C:\Workspaces\CDNAppSupport\UpdateLoadCancelReject\obj\Release\Comdata.AppSupport.UpdateLoadCancelReject.Properties.Resources.resources
+C:\Workspaces\CDNAppSupport\UpdateLoadCancelReject\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Workspaces\CDNAppSupport\UpdateLoadCancelReject\obj\Release\Comdata.AppSupport.UpdateLoadCancelReject.Forms.LoginForm.resources
+C:\Workspaces\CDNAppSupport\UpdateLoadCancelReject\obj\Release\Comdata.AppSupport.UpdateLoadCancelReject.Forms.formMain.resources
+C:\Workspaces\CDNAppSupport\UpdateLoadCancelReject\obj\Release\UpdateLoadCancelReject.csprojResolveAssemblyReference.cache
+C:\Workspaces\CDNAppSupport\UpdateLoadCancelReject\obj\Release\UpdateLoadCancelReject.csproj.CoreCompileInputs.cache

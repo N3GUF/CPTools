@@ -1,0 +1,97 @@
+These are the amounts for the Payroll Reject File sent on 02/18/2015.
+
+Credits:
+
+10000667	US SECURITY ASSOCIATES INC
+	101425078        	       502.76	689058580158UG7     	MAROCK,ROBERT R          
+	102744148        	       878.35	530034797924UG7     	DALE,WILLIAM             
+	101921828        	       953.65	720034592473UG7     	SHEEHAN,TINA             
+	101425072        	       510.76	392553076542UG7     	WILLIAMS,MATTHEW         
+	102500468        	     1,095.52	749032352703UG7     	MAGALLON,DANIEL          
+	102296131        	       715.93	510034705544UG7     	BUCHERICH,JOHN           
+	101996897        	       916.10	669039608095UG7     	LATIMER,SPENCER          
+	101996899        	     1,459.05	669039608098UG7     	PHILLIPS,LOGAN           
+	102008492        	       988.65	669039608100UG7     	THACKER,THOMAS           
+
+30000342	PACKER SANITATION SERVICES INC
+	102380357        	       564.43	774052917286BK5     	GARCIA,VICTOR A          
+	101715031        	        40.64	515054196950BK5     	RAMIREZ,ARTURO G         
+
+10000038	MAC'S CONVENIENCE STORES LLC
+	102639584        	       602.75	978596              	ROLLER,HARRISON          
+
+10001061	ALORICA INC RYLA
+	101693584        	     3,917.05	42125758101         	REMBERT, SHELEXIA        
+
+10001279	CORNEJO AND SONS LLC
+	101293557        	     1,567.00	970818553200909     	HERNANDEZ, SANTOS A &    
+
+30000011	POTBELLY SANDWICH
+	102727922        	       104.00	388138348           	MCCOMB TAYLOR C          
+	102840039        	       207.00	623649160           	FERGUSON TASHA           
+
+10000407	TELETECH HOLDINGS, INC
+	102778839        	       651.00	101802454200928     	BARNES, VICTORIA L       
+
+10001802	HARCON INC
+	102548981        	       618.52	1073                	ARMANDO GARCIA           
+	102577637        	       304.11	1247                	ELEUTERIO CORRAL         
+	102577638        	       194.65	1270                	FELIPE GUTIERREZ         
+	102577639        	       213.75	1347                	HORACIO PINEL            
+	102629831        	       100.00	1659                	SAMUEL JIMENEZ           
+	102577693        	        75.00	1755                	VICTOR GUEVARA           
+	102577644        	       180.00	2093                	KEVIN R RAY              
+	102670069        	       283.82	2138                	ROBERTO FLORES           
+	102577690        	       151.84	2197                	RODRIGO A DIAZ           
+	102630040        	       111.38	2312                	MIGUEL PEREZ             
+	102577668        	       446.23	2332                	JAMES M THOMAS           
+	102629848        	       160.00	2392                	APOLINAIR ARELLANO       
+	102670059        	       124.17	2401                	RAMON LUIS PEREZ         
+	102807384        	       210.00	2421                	WILFREDO B VALENTIN      
+	102807379        	        25.00	2422                	RIKY A ACEVEDO           
+	102807375        	       683.26	2423                	JONAS FLORES ORTIZ       
+	102812859        	        64.04	2425                	ROGUE GARCEZ             
+	102812877        	        44.01	2426                	MARGARITO ALVAREZ        
+	102822961        	        60.00	2429                	ESTEBAN MONTIEL PAREDE   
+	102848515        	       444.75	2432                	MIKE BROWN               
+	102848542        	        64.00	2433                	VICENTE GUTIERREZ        
+	102893391        	        30.81	2445                	CARLO M GARZA            
+	102893410        	        83.83	2446                	GREGORIO PADRON          
+
+10001842	DR PEPPER SNAPPLE GROUP
+	102651474        	     4,149.00	345888075           	ANDERSON MARIO           
+
+10001802	HARCON INC
+	102807607        	        75.00	2420                	VICTOR M RODRIGUEZ       
+
+10000846	REINTJES SERVICES INC
+	100734925        	       560.00	84556               	REED CLAUZELL            
+	100734847        	       595.00	89162               	COLE DOUGLAS W           
+	102823077        	       560.00	89427               	GOBERT TIMOTHY           
+
+Total Credits:		    26,286.81
+
+Debits:
+
+30000342	PACKER SANITATION SERVICES INC
+	102380357        	       564.43	727054295622BK5     	GARCIA,VICTOR A          
+
+30000443	CENTRAL FLORIDA REG TRANS AUTH
+	102536617        	         0.25	404V7J222GDJVK6     	MARITZA ALBINO           
+
+10000407	TELETECH HOLDINGS, INC
+	102778839        	        88.83	6KELVUNVA71         	ALICE ENGLISH            
+
+30000073	LORAM MAINTENANCE OF WAY
+	101844560        	         0.51	4444271385          	Auth                     
+
+40000062	SILVERLEAF RESORTS INC
+	102661763        	     2,010.95	3917363             	BIANCA JOHNSON           
+	102661763        	     1,510.95	3917363             	BIANCA JOHNSON           
+
+10001842	DR PEPPER SNAPPLE GROUP
+	102668475        	       125.88	cp6003961           	MARCUS THOMAS            
+
+Total Debits:		     4,301.80
+
+File Total Credits:	    21,985.01

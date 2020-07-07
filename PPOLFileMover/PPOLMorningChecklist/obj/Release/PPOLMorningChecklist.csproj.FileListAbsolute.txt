@@ -1,0 +1,10 @@
+C:\Workspaces\CDNAppSupport\PPOLMorningChecklist\bin\Release\PPOLMorningChecklist.exe.config
+C:\Workspaces\CDNAppSupport\PPOLMorningChecklist\bin\Release\PPOLMorningChecklist.exe
+C:\Workspaces\CDNAppSupport\PPOLMorningChecklist\bin\Release\PPOLMorningChecklist.pdb
+C:\Workspaces\CDNAppSupport\PPOLMorningChecklist\bin\Release\AppTools.dll
+C:\Workspaces\CDNAppSupport\PPOLMorningChecklist\bin\Release\Microsoft.Practices.Unity.dll
+C:\Workspaces\CDNAppSupport\PPOLMorningChecklist\bin\Release\AppTools.pdb
+C:\Workspaces\CDNAppSupport\PPOLMorningChecklist\bin\Release\Microsoft.Practices.Unity.xml
+C:\Workspaces\CDNAppSupport\PPOLMorningChecklist\obj\Release\PPOLMorningChecklist.exe
+C:\Workspaces\CDNAppSupport\PPOLMorningChecklist\obj\Release\PPOLMorningChecklist.pdb
+C:\Workspaces\CDNAppSupport\PPOLMorningChecklist\obj\Release\PPOLMorningChecklist.csprojResolveAssemblyReference.cache

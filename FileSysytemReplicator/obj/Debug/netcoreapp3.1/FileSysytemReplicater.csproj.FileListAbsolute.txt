@@ -1,0 +1,15 @@
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\obj\Debug\netcoreapp3.1\FileSysytemReplicater.csproj.CoreCompileInputs.cache
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\obj\Debug\netcoreapp3.1\FileSysytemReplicater.csprojAssemblyReference.cache
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\bin\Debug\netcoreapp3.1\FileSysytemReplicater.exe
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\bin\Debug\netcoreapp3.1\FileSysytemReplicater.dll.config
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\bin\Debug\netcoreapp3.1\FileSysytemReplicater.deps.json
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\bin\Debug\netcoreapp3.1\FileSysytemReplicater.runtimeconfig.json
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\bin\Debug\netcoreapp3.1\FileSysytemReplicater.runtimeconfig.dev.json
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\bin\Debug\netcoreapp3.1\FileSysytemReplicater.dll
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\bin\Debug\netcoreapp3.1\FileSysytemReplicater.pdb
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\bin\Debug\netcoreapp3.1\AppTools.dll
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\bin\Debug\netcoreapp3.1\AppTools.pdb
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\obj\Debug\netcoreapp3.1\FileSysytemReplicater.csproj.CopyComplete
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\obj\Debug\netcoreapp3.1\FileSysytemReplicater.dll
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\obj\Debug\netcoreapp3.1\FileSysytemReplicater.pdb
+C:\Workspaces\CDNAppSupport\FileSysytemReplicator\obj\Debug\netcoreapp3.1\FileSysytemReplicater.genruntimeconfig.cache
