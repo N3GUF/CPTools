@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RVjzaCCcs1ixmjvUQPR+vcDdPXY4K5QrDxVOFxIaYi3fXLiI2agt9DYSTOHmdgxh6cegw12CV8QodXa67gwp9Q==",
+  "dgSpecHash": "/InAGpUpnW+NMVob6XZU1atNIKz36mgm2MDvwh0cJjuDoPPPxrx19ThkwmcYVaC5U6Np+f24iJp9+ucLNExGhQ==",
   "success": true,
-  "projectFilePath": "C:\\repos\\CDNAppSupport\\FileSysytemReplicator\\FileSysytemReplicater.csproj",
+  "projectFilePath": "C:\\repos\\CPTools\\FileSysytemReplicator\\FileSysytemReplicater.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

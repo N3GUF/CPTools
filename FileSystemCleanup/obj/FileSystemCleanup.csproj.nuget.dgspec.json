@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\CDNAppSupport\\FileSystemCleanup\\FileSystemCleanup.csproj": {}
+    "C:\\repos\\CPTools\\FileSystemCleanup\\FileSystemCleanup.csproj": {}
   },
   "projects": {
-    "C:\\repos\\CDNAppSupport\\FileSystemCleanup\\FileSystemCleanup.csproj": {
+    "C:\\repos\\CPTools\\FileSystemCleanup\\FileSystemCleanup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\CDNAppSupport\\FileSystemCleanup\\FileSystemCleanup.csproj",
+        "projectUniqueName": "C:\\repos\\CPTools\\FileSystemCleanup\\FileSystemCleanup.csproj",
         "projectName": "FileSystemCleanup",
-        "projectPath": "C:\\repos\\CDNAppSupport\\FileSystemCleanup\\FileSystemCleanup.csproj",
+        "projectPath": "C:\\repos\\CPTools\\FileSystemCleanup\\FileSystemCleanup.csproj",
         "packagesPath": "C:\\Users\\dbernhardy\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\CDNAppSupport\\FileSystemCleanup\\obj\\",
+        "outputPath": "C:\\repos\\CPTools\\FileSystemCleanup\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dbernhardy\\AppData\\Roaming\\NuGet\\NuGet.Config",

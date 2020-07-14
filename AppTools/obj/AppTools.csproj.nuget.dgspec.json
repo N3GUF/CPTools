@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\CDNAppSupport\\AppTools\\AppTools.csproj": {}
+    "C:\\repos\\CPTools\\AppTools\\AppTools.csproj": {}
   },
   "projects": {
-    "C:\\repos\\CDNAppSupport\\AppTools\\AppTools.csproj": {
+    "C:\\repos\\CPTools\\AppTools\\AppTools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\CDNAppSupport\\AppTools\\AppTools.csproj",
+        "projectUniqueName": "C:\\repos\\CPTools\\AppTools\\AppTools.csproj",
         "projectName": "AppTools",
-        "projectPath": "C:\\repos\\CDNAppSupport\\AppTools\\AppTools.csproj",
+        "projectPath": "C:\\repos\\CPTools\\AppTools\\AppTools.csproj",
         "packagesPath": "C:\\Users\\dbernhardy\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\CDNAppSupport\\AppTools\\obj\\",
+        "outputPath": "C:\\repos\\CPTools\\AppTools\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dbernhardy\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\CDNAppSupport\\FileSysytemReplicator\\FileSysytemReplicater.csproj",
+      "projectUniqueName": "C:\\repos\\CPTools\\FileSysytemReplicator\\FileSysytemReplicater.csproj",
       "projectName": "FileSysytemReplicater",
-      "projectPath": "C:\\repos\\CDNAppSupport\\FileSysytemReplicator\\FileSysytemReplicater.csproj",
+      "projectPath": "C:\\repos\\CPTools\\FileSysytemReplicator\\FileSysytemReplicater.csproj",
       "packagesPath": "C:\\Users\\dbernhardy\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\CDNAppSupport\\FileSysytemReplicator\\obj\\",
+      "outputPath": "C:\\repos\\CPTools\\FileSysytemReplicator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dbernhardy\\AppData\\Roaming\\NuGet\\NuGet.Config",

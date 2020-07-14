@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "doiezFPek0yvduxXVBQAhqxfXFyFKIDUWN1hRTEHD/7QLhcYGEqcqAWJQcvL6paK4CpcO2tvP8zmY4ARRgTUqw==",
+  "dgSpecHash": "xbki7g6C2uuFCDSzy/kKXu6wplI7AeoEfotohJIXuxDrXoZLoGSoehuMV936+dkkXPKXJ3Eyn55Jyheh/L4EeQ==",
   "success": true,
-  "projectFilePath": "C:\\repos\\CDNAppSupport\\FileSystemCleanup\\FileSystemCleanup.csproj",
+  "projectFilePath": "C:\\repos\\CPTools\\FileSystemCleanup\\FileSystemCleanup.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
