@@ -9,3 +9,15 @@ C:\Workspaces\CDNAppSupport\PPOLFileMover\obj\Release\PPOLFileMover.exe
 C:\Workspaces\CDNAppSupport\PPOLFileMover\obj\Release\PPOLFileMover.pdb
 C:\Workspaces\CDNAppSupport\PPOLFileMover\obj\Release\PPOLFileMover.csprojResolveAssemblyReference.cache
 C:\Workspaces\CDNAppSupport\PPOLFileMover\obj\Release\PPOLFileMover.csproj.CoreCompileInputs.cache
+C:\repos\CDNAppSupport\PPOLFileMover\bin\Release\PPOLFileMover.exe.config
+C:\repos\CDNAppSupport\PPOLFileMover\bin\Release\PPOLFileMover.exe
+C:\repos\CDNAppSupport\PPOLFileMover\bin\Release\PPOLFileMover.pdb
+C:\repos\CDNAppSupport\PPOLFileMover\bin\Release\AppTools.dll
+C:\repos\CDNAppSupport\PPOLFileMover\bin\Release\Microsoft.Practices.Unity.dll
+C:\repos\CDNAppSupport\PPOLFileMover\bin\Release\AppTools.pdb
+C:\repos\CDNAppSupport\PPOLFileMover\bin\Release\Microsoft.Practices.Unity.xml
+C:\repos\CDNAppSupport\PPOLFileMover\obj\Release\PPOLFileMover.csprojAssemblyReference.cache
+C:\repos\CDNAppSupport\PPOLFileMover\obj\Release\PPOLFileMover.csproj.CoreCompileInputs.cache
+C:\repos\CDNAppSupport\PPOLFileMover\obj\Release\PPOLFileMover.csproj.CopyComplete
+C:\repos\CDNAppSupport\PPOLFileMover\obj\Release\PPOLFileMover.exe
+C:\repos\CDNAppSupport\PPOLFileMover\obj\Release\PPOLFileMover.pdb

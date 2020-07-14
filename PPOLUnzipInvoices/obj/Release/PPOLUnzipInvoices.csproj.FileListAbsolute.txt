@@ -5,3 +5,10 @@ C:\Workspaces\tfsWork\PPOLUnzipInvoices\bin\Release\PPOLUnzipInvoices.pdb
 C:\Workspaces\tfsWork\PPOLUnzipInvoices\obj\Release\PPOLUnzipInvoices.exe
 C:\Workspaces\tfsWork\PPOLUnzipInvoices\obj\Release\PPOLUnzipInvoices.pdb
 C:\Workspaces\tfsWork\PPOLUnzipInvoices\obj\Release\PPOLUnzipInvoices.csprojResolveAssemblyReference.cache
+C:\repos\CDNAppSupport\PPOLUnzipInvoices\bin\Release\PPOLUnzipInvoices.exe.config
+C:\repos\CDNAppSupport\PPOLUnzipInvoices\bin\Release\PPOLUnzipInvoices.exe
+C:\repos\CDNAppSupport\PPOLUnzipInvoices\bin\Release\PPOLUnzipInvoices.pdb
+C:\repos\CDNAppSupport\PPOLUnzipInvoices\obj\Release\PPOLUnzipInvoices.csprojAssemblyReference.cache
+C:\repos\CDNAppSupport\PPOLUnzipInvoices\obj\Release\PPOLUnzipInvoices.csproj.CoreCompileInputs.cache
+C:\repos\CDNAppSupport\PPOLUnzipInvoices\obj\Release\PPOLUnzipInvoices.exe
+C:\repos\CDNAppSupport\PPOLUnzipInvoices\obj\Release\PPOLUnzipInvoices.pdb

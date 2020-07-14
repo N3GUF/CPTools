@@ -8,3 +8,13 @@ C:\Workspaces\CDNAppSupport\CreateRejectFile\obj\Release\CreateRejectFile.exe
 C:\Workspaces\CDNAppSupport\CreateRejectFile\obj\Release\CreateRejectFile.pdb
 C:\Workspaces\CDNAppSupport\CreateRejectFile\obj\Release\CreateRejectFile.csprojResolveAssemblyReference.cache
 C:\Workspaces\CDNAppSupport\CreateRejectFile\obj\Release\CreateRejectFile.csproj.CoreCompileInputs.cache
+C:\repos\CDNAppSupport\CreateRejectFile\bin\Release\CreateRejectFile.exe.config
+C:\repos\CDNAppSupport\CreateRejectFile\bin\Release\CreateRejectFile.exe
+C:\repos\CDNAppSupport\CreateRejectFile\bin\Release\CreateRejectFile.pdb
+C:\repos\CDNAppSupport\CreateRejectFile\obj\Release\CreateRejectFile.csprojAssemblyReference.cache
+C:\repos\CDNAppSupport\CreateRejectFile\obj\Release\CreateRejectFile.formCreateRejectFile.resources
+C:\repos\CDNAppSupport\CreateRejectFile\obj\Release\CreateRejectFile.Properties.Resources.resources
+C:\repos\CDNAppSupport\CreateRejectFile\obj\Release\CreateRejectFile.csproj.GenerateResource.cache
+C:\repos\CDNAppSupport\CreateRejectFile\obj\Release\CreateRejectFile.csproj.CoreCompileInputs.cache
+C:\repos\CDNAppSupport\CreateRejectFile\obj\Release\CreateRejectFile.exe
+C:\repos\CDNAppSupport\CreateRejectFile\obj\Release\CreateRejectFile.pdb

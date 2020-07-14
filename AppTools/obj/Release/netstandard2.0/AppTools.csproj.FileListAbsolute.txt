@@ -7,3 +7,12 @@ C:\Workspaces\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.csproj.
 C:\Workspaces\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.dll
 C:\Workspaces\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.pdb
 C:\Workspaces\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.csprojAssemblyReference.cache
+C:\repos\CDNAppSupport\AppTools\bin\Release\netstandard2.0\AppTools.deps.json
+C:\repos\CDNAppSupport\AppTools\bin\Release\netstandard2.0\AppTools.dll
+C:\repos\CDNAppSupport\AppTools\bin\Release\netstandard2.0\AppTools.pdb
+C:\repos\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.csprojAssemblyReference.cache
+C:\repos\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.AssemblyInfoInputs.cache
+C:\repos\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.AssemblyInfo.cs
+C:\repos\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.csproj.CoreCompileInputs.cache
+C:\repos\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.dll
+C:\repos\CDNAppSupport\AppTools\obj\Release\netstandard2.0\AppTools.pdb

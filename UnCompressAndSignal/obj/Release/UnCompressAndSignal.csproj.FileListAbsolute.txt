@@ -12,3 +12,5 @@ C:\Workspaces\CDNAppSupport\UnCompressAndSignal\obj\Release\UnCompressAndSignal.
 C:\Workspaces\CDNAppSupport\UnCompressAndSignal\obj\Release\UnCompressAndSignal.csprojResolveAssemblyReference.cache
 C:\Workspaces\CDNAppSupport\UnCompressAndSignal\bin\Release\ICSharpCode.SharpZipLib.pdb
 C:\Workspaces\CDNAppSupport\UnCompressAndSignal\bin\Release\ICSharpCode.SharpZipLib.xml
+C:\repos\CDNAppSupport\UnCompressAndSignal\obj\Release\UnCompressAndSignal.exe
+C:\repos\CDNAppSupport\UnCompressAndSignal\obj\Release\UnCompressAndSignal.pdb
