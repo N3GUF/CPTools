@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPOLMCFileRename", "PPOLMCF
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SettleCpsOrders", "SettleCpsOrders\SettleCpsOrders.pyproj", "{E85D1A8B-96EA-4E2F-A290-97FFFEF177FA}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PilotCarBillingFix", "PilotCarBillingFix\PilotCarBillingFix.pyproj", "{C35D971A-5591-40B2-8E77-B68CDA887DA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +147,10 @@ Global
 		{E85D1A8B-96EA-4E2F-A290-97FFFEF177FA}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{E85D1A8B-96EA-4E2F-A290-97FFFEF177FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E85D1A8B-96EA-4E2F-A290-97FFFEF177FA}.Release|x86.ActiveCfg = Release|Any CPU
+		{C35D971A-5591-40B2-8E77-B68CDA887DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35D971A-5591-40B2-8E77-B68CDA887DA7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C35D971A-5591-40B2-8E77-B68CDA887DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35D971A-5591-40B2-8E77-B68CDA887DA7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
