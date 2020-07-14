@@ -1,15 +1,43 @@
 ﻿using Comdata.AppSupport.AppTools;
-using Microsoft.Practices.Unity;
+using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
 
 namespace Comdata.AppSupport.DirectDepositFix
 {
     class Program
     {
+        private static IServiceProvider _serviceProvider;
+
+        static void Main(string[] args)
+        {
+            RegisterServices();
+            IServiceScope scope = _serviceProvider.CreateScope();
+            scope.ServiceProvider.GetRequiredService<ConsoleApplication>().Run();
+            DisposeServices();
+
+        }
+
+        private static void RegisterServices()
+        {
+            var services = new ServiceCollection();
+            services.AddSingleton<ILog> (new TextLogger(Properties.Settings.Default.LogPath
+                                                      , Properties.Settings.Default.LoggingThreshold));
+            services.AddSingleton<ConsoleApplication>();
+            _serviceProvider = services.BuildServiceProvider(true);
+        }
+
+        private static void DisposeServices()
+        {
+            if (_serviceProvider == null)
+            {
+                return;
+            }
+            if (_serviceProvider is IDisposable)
+            {
+                ((IDisposable)_serviceProvider).Dispose();
+            }
+        }
         static void Main(string[] args)
         {
             ILog log = null;

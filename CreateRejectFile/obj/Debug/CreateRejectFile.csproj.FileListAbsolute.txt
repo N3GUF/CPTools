@@ -29,3 +29,4 @@ C:\repos\CDNAppSupport\CreateRejectFile\obj\Debug\CreateRejectFile.csproj.Genera
 C:\repos\CDNAppSupport\CreateRejectFile\obj\Debug\CreateRejectFile.csproj.CoreCompileInputs.cache
 C:\repos\CDNAppSupport\CreateRejectFile\obj\Debug\CreateRejectFile.exe
 C:\repos\CDNAppSupport\CreateRejectFile\obj\Debug\CreateRejectFile.pdb
+C:\repos\CDNAppSupport\CreateRejectFile\obj\Debug\CreateRejectFile.csprojAssemblyReference.cache

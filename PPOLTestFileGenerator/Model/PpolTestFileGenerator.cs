@@ -201,7 +201,7 @@ namespace Comdata.AppSupport.PPOLTestFileGenerator.Model
                 return null;
 
             string error = null;
-            var Custom = 0;
+         //   var Custom = 0;
             this._customCode = this._customCode.Trim();
 
             if (this._customCode.Length != 2)

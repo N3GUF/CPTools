@@ -11,3 +11,10 @@ C:\Workspaces\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.csproj
 C:\Workspaces\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.csproj.CoreCompileInputs.cache
 C:\Workspaces\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.exe
 C:\Workspaces\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.pdb
+C:\repos\CDNAppSupport\PPOLUnzipInvoices\bin\Debug\PPOLUnzipInvoices.exe.config
+C:\repos\CDNAppSupport\PPOLUnzipInvoices\bin\Debug\PPOLUnzipInvoices.exe
+C:\repos\CDNAppSupport\PPOLUnzipInvoices\bin\Debug\PPOLUnzipInvoices.pdb
+C:\repos\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.csprojAssemblyReference.cache
+C:\repos\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.csproj.CoreCompileInputs.cache
+C:\repos\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.exe
+C:\repos\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.pdb

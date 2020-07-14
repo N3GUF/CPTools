@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CreateRejectFile
@@ -14,7 +9,6 @@ namespace CreateRejectFile
     public partial class formCreateRejectFile : Form
     {
         int ct = 0;
-        int idx = 0;
         int lastCounter = 0;
         long totalDebits = 0;
         long totalCredits = 0;

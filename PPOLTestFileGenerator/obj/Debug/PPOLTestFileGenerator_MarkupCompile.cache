@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Workspaces\CDNAppSupport\PPOLTestFileGenerator\obj\Debug\
+C:\repos\CDNAppSupport\PPOLTestFileGenerator\obj\Debug\
 Comdata.AppSupport.PPOLTestFileGenerator
 none
 false
 DEBUG;TRACE
-C:\Workspaces\CDNAppSupport\PPOLTestFileGenerator\App.xaml
+C:\repos\CDNAppSupport\PPOLTestFileGenerator\App.xaml
 21070930900
 
 141394466918
-13-90381563
+13-1146815865
 View\ExceptionDlg.xaml;View\MainWindow.xaml;
 
-True
+False
 

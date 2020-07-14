@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using AppTools;
 using System.IO;
 using System.Data;
-
+using Comdata.AppSupport.AppTools;
 
 namespace Comdata.AppSupport.PartnerAllianceResubmit
 {
