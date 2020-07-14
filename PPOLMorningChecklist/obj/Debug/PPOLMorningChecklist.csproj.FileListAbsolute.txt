@@ -29,3 +29,17 @@ C:\repos\CDNAppSupport\PPOLMorningChecklist\obj\Debug\PPOLMorningChecklist.cspro
 C:\repos\CDNAppSupport\PPOLMorningChecklist\obj\Debug\PPOLMorningChecklist.exe
 C:\repos\CDNAppSupport\PPOLMorningChecklist\obj\Debug\PPOLMorningChecklist.pdb
 C:\repos\CDNAppSupport\PPOLMorningChecklist\obj\Debug\PPOLMorningChecklist.csprojAssemblyReference.cache
+C:\repos\CPTools\PPOLMorningChecklist\bin\Debug\PPOLMorningChecklist.exe.config
+C:\repos\CPTools\PPOLMorningChecklist\bin\Debug\PPOLMorningChecklist.exe
+C:\repos\CPTools\PPOLMorningChecklist\bin\Debug\PPOLMorningChecklist.pdb
+C:\repos\CPTools\PPOLMorningChecklist\bin\Debug\AppTools.dll
+C:\repos\CPTools\PPOLMorningChecklist\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\repos\CPTools\PPOLMorningChecklist\bin\Debug\Microsoft.Practices.Unity.dll
+C:\repos\CPTools\PPOLMorningChecklist\bin\Debug\AppTools.pdb
+C:\repos\CPTools\PPOLMorningChecklist\bin\Debug\Microsoft.Practices.Unity.xml
+C:\repos\CPTools\PPOLMorningChecklist\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\repos\CPTools\PPOLMorningChecklist\obj\Debug\PPOLMorningChecklist.csprojAssemblyReference.cache
+C:\repos\CPTools\PPOLMorningChecklist\obj\Debug\PPOLMorningChecklist.csproj.CoreCompileInputs.cache
+C:\repos\CPTools\PPOLMorningChecklist\obj\Debug\PPOLMorningChecklist.csproj.CopyComplete
+C:\repos\CPTools\PPOLMorningChecklist\obj\Debug\PPOLMorningChecklist.exe
+C:\repos\CPTools\PPOLMorningChecklist\obj\Debug\PPOLMorningChecklist.pdb

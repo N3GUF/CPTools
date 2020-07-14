@@ -18,3 +18,10 @@ C:\repos\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.csprojAssem
 C:\repos\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.csproj.CoreCompileInputs.cache
 C:\repos\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.exe
 C:\repos\CDNAppSupport\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.pdb
+C:\repos\CPTools\PPOLUnzipInvoices\bin\Debug\PPOLUnzipInvoices.exe.config
+C:\repos\CPTools\PPOLUnzipInvoices\bin\Debug\PPOLUnzipInvoices.exe
+C:\repos\CPTools\PPOLUnzipInvoices\bin\Debug\PPOLUnzipInvoices.pdb
+C:\repos\CPTools\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.csprojAssemblyReference.cache
+C:\repos\CPTools\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.csproj.CoreCompileInputs.cache
+C:\repos\CPTools\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.exe
+C:\repos\CPTools\PPOLUnzipInvoices\obj\Debug\PPOLUnzipInvoices.pdb

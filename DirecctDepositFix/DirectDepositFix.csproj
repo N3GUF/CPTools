@@ -12,9 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="AppTools">
-      <HintPath>..\..\CDNAppSupport\AppTools\bin\Release\netstandard2.0\AppTools.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\AppTools\AppTools.csproj" />
   </ItemGroup>
 
 </Project>

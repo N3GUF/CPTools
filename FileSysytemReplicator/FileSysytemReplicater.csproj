@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <Reference Include="AppTools">
-      <HintPath>..\..\CDNAppSupport\AppTools\bin\Release\netstandard2.0\AppTools.dll</HintPath>
+      <HintPath>..\..\CPTools\AppTools\bin\Release\netstandard2.0\AppTools.dll</HintPath>
     </Reference>
   </ItemGroup>
 
