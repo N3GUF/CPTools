@@ -44,3 +44,4 @@ C:\repos\CDNAppSupport\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemClean
 C:\repos\CDNAppSupport\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemCleanup.dll
 C:\repos\CDNAppSupport\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemCleanup.pdb
 C:\repos\CDNAppSupport\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemCleanup.genruntimeconfig.cache
+C:\repos\CDNAppSupport\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemCleanup.csprojAssemblyReference.cache

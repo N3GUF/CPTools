@@ -1,9 +1,0 @@
-C:\Workspaces\CDNAppSupport\FileMover\FileMoverWinForms\bin\Release\FileMover.exe
-C:\Workspaces\CDNAppSupport\FileMover\FileMoverWinForms\bin\Release\FileMover.pdb
-C:\Workspaces\CDNAppSupport\FileMover\FileMoverWinForms\obj\Release\FileMoverWinForms.csprojResolveAssemblyReference.cache
-C:\Workspaces\CDNAppSupport\FileMover\FileMoverWinForms\obj\Release\Comdata.AppSupport.FileMover.MainForm.resources
-C:\Workspaces\CDNAppSupport\FileMover\FileMoverWinForms\obj\Release\Comdata.AppSupport.FileMover.Properties.Resources.resources
-C:\Workspaces\CDNAppSupport\FileMover\FileMoverWinForms\obj\Release\FileMoverWinForms.csproj.GenerateResource.Cache
-C:\Workspaces\CDNAppSupport\FileMover\FileMoverWinForms\obj\Release\FileMoverWinForms.csproj.CoreCompileInputs.cache
-C:\Workspaces\CDNAppSupport\FileMover\FileMoverWinForms\obj\Release\FileMover.exe
-C:\Workspaces\CDNAppSupport\FileMover\FileMoverWinForms\obj\Release\FileMover.pdb

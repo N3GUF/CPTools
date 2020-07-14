@@ -33,6 +33,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SettleCpsOrders", "SettleCp
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PilotCarBillingFix", "PilotCarBillingFix\PilotCarBillingFix.pyproj", "{C35D971A-5591-40B2-8E77-B68CDA887DA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnCompressAndSignal", "UnCompressAndSignal\UnCompressAndSignal.csproj", "{CFBC7680-C764-4BBF-B1F5-C7757493FEF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPOLFileMover", "PPOLFileMover\PPOLFileMover.csproj", "{918B8638-8593-459B-8637-E0C5C56FBA9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +155,22 @@ Global
 		{C35D971A-5591-40B2-8E77-B68CDA887DA7}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{C35D971A-5591-40B2-8E77-B68CDA887DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C35D971A-5591-40B2-8E77-B68CDA887DA7}.Release|x86.ActiveCfg = Release|Any CPU
+		{CFBC7680-C764-4BBF-B1F5-C7757493FEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFBC7680-C764-4BBF-B1F5-C7757493FEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFBC7680-C764-4BBF-B1F5-C7757493FEF7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CFBC7680-C764-4BBF-B1F5-C7757493FEF7}.Debug|x86.Build.0 = Debug|Any CPU
+		{CFBC7680-C764-4BBF-B1F5-C7757493FEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFBC7680-C764-4BBF-B1F5-C7757493FEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFBC7680-C764-4BBF-B1F5-C7757493FEF7}.Release|x86.ActiveCfg = Release|Any CPU
+		{CFBC7680-C764-4BBF-B1F5-C7757493FEF7}.Release|x86.Build.0 = Release|Any CPU
+		{918B8638-8593-459B-8637-E0C5C56FBA9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918B8638-8593-459B-8637-E0C5C56FBA9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918B8638-8593-459B-8637-E0C5C56FBA9E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{918B8638-8593-459B-8637-E0C5C56FBA9E}.Debug|x86.Build.0 = Debug|Any CPU
+		{918B8638-8593-459B-8637-E0C5C56FBA9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918B8638-8593-459B-8637-E0C5C56FBA9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918B8638-8593-459B-8637-E0C5C56FBA9E}.Release|x86.ActiveCfg = Release|Any CPU
+		{918B8638-8593-459B-8637-E0C5C56FBA9E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
