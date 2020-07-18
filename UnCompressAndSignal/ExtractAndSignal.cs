@@ -1,9 +1,7 @@
-﻿using Comdata.AppSupport.AppTools.Zip;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.IO;
+using System.IO.Compression;
 using System.Linq;
-using System.Text;
 
 namespace UnCompressAndSignal
 {
@@ -82,7 +80,7 @@ namespace UnCompressAndSignal
 
             Directory.CreateDirectory(tempDir);
             filesExtracted = 0;
-            Zip.Extract(zipArchive, "", tempDir);
+            ZipFile.ExtractToDirectory(zipArchive, tempDir);
             var files = Directory.GetFiles(path);
 
             foreach (var file in files)

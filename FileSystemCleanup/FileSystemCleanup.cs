@@ -10,7 +10,7 @@ namespace Comdata.AppSupport.FileSystemCleanup
 {
     class FileSystemCleanup
     {
-        private object _lockObj = new object(); 
+        private object _lockObj = new object();
         private AppTools.ILog _log;
         private ISettings _settings;
         private IFileInfoList _fiList;
@@ -36,21 +36,20 @@ namespace Comdata.AppSupport.FileSystemCleanup
 
                     if (folder.DeleteAfterDays >= 0)
                         DispatchCleanup(folder, operation.Delete, _settings.Threads);
-                        deleteEmptyFolders(folder);
+                    deleteEmptyFolders(folder);
 
                     if (folder.ArchiveAfterDays >= 0)
-                    {vscode-settings:settingseditor
                         DispatchCleanup(folder, operation.Archive, _settings.Threads);
-                        deleteEmptyFolders(folder);
-                    }
-                    if (folder.CompressAfterDays >=0)
+                    deleteEmptyFolders(folder);
+
+                    if (folder.CompressAfterDays >= 0)
                         DispatchCleanup(folder, operation.Compress, _settings.Threads);
                 }
                 else
                     _log.Write(Severity.Warning, "Folder: {0} doesn't exist.", folder.Folder);
             }
         }
-
+    
         private void deleteEmptyFolders(FolderSetting folder)
         {
             var backupFolderNamePattern = @"\d{4}-?\d{2}-?\d{2}|\d{4}|\d{2}$";
@@ -76,7 +75,7 @@ namespace Comdata.AppSupport.FileSystemCleanup
             var maxDate = DateTime.Today;
             var count = 0;
             var operationText = "";
-           
+
 
             switch (operation)
             {
@@ -125,7 +124,7 @@ namespace Comdata.AppSupport.FileSystemCleanup
             }
             catch (Exception ex)
             {
-                 Utilities.ReportException(ex, _log);
+                Utilities.ReportException(ex, _log);
             }
 
             return ob;
@@ -144,7 +143,7 @@ namespace Comdata.AppSupport.FileSystemCleanup
                     _log.Write(Severity.Debug, "Created directory: {0}", archivePath);
                 }
 
-                _log.Write(Severity.Debug,"Moving {0} to {1}", File.FullName, archivePath);
+                _log.Write(Severity.Debug, "Moving {0} to {1}", File.FullName, archivePath);
                 File.MoveTo(Path.Combine(archivePath, File.Name));
             }
         }
@@ -207,7 +206,7 @@ namespace Comdata.AppSupport.FileSystemCleanup
             }
         }
 
-        private static void deleteEmptyDirectory(string startLocation, bool includeSubdirectories)
+        private void deleteEmptyDirectory(string startLocation, bool includeSubdirectories)
         {
             if (includeSubdirectories)
                 foreach (var directory in Directory.GetDirectories(startLocation))
@@ -218,7 +217,7 @@ namespace Comdata.AppSupport.FileSystemCleanup
                         Directory.GetDirectories(directory).Length == 0)
                         Directory.Delete(directory, false);
                 }
-    }
+        }     
 
         enum operation {
             [Description("Deleting")]

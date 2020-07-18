@@ -22,3 +22,13 @@ C:\Workspaces\CDNAppSupport\UnCompressAndSignal\obj\Debug\UnCompressAndSignal.cs
 C:\Workspaces\CDNAppSupport\UnCompressAndSignal\obj\Debug\UnCompressAndSignal.csproj.CopyComplete
 C:\Workspaces\CDNAppSupport\UnCompressAndSignal\obj\Debug\UnCompressAndSignal.exe
 C:\Workspaces\CDNAppSupport\UnCompressAndSignal\obj\Debug\UnCompressAndSignal.pdb
+C:\repos\CPTools\UnCompressAndSignal\obj\Debug\UnCompressAndSignal.csprojAssemblyReference.cache
+C:\repos\CPTools\UnCompressAndSignal\obj\Debug\UnCompressAndSignal.csproj.CoreCompileInputs.cache
+C:\repos\CPTools\UnCompressAndSignal\bin\Debug\UnCompressAndSignal.exe.config
+C:\repos\CPTools\UnCompressAndSignal\bin\Debug\UnCompressAndSignal.exe
+C:\repos\CPTools\UnCompressAndSignal\bin\Debug\UnCompressAndSignal.pdb
+C:\repos\CPTools\UnCompressAndSignal\bin\Debug\AppTools.dll
+C:\repos\CPTools\UnCompressAndSignal\bin\Debug\AppTools.pdb
+C:\repos\CPTools\UnCompressAndSignal\obj\Debug\UnCompressAndSignal.csproj.CopyComplete
+C:\repos\CPTools\UnCompressAndSignal\obj\Debug\UnCompressAndSignal.exe
+C:\repos\CPTools\UnCompressAndSignal\obj\Debug\UnCompressAndSignal.pdb

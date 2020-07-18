@@ -8,36 +8,6 @@ namespace Comdata.AppSupport.DirectDepositFix
     class Program
     {
         private static IServiceProvider _serviceProvider;
-
-        static void Main(string[] args)
-        {
-            RegisterServices();
-            IServiceScope scope = _serviceProvider.CreateScope();
-            scope.ServiceProvider.GetRequiredService<ConsoleApplication>().Run();
-            DisposeServices();
-
-        }
-
-        private static void RegisterServices()
-        {
-            var services = new ServiceCollection();
-            services.AddSingleton<ILog> (new TextLogger(Properties.Settings.Default.LogPath
-                                                      , Properties.Settings.Default.LoggingThreshold));
-            services.AddSingleton<ConsoleApplication>();
-            _serviceProvider = services.BuildServiceProvider(true);
-        }
-
-        private static void DisposeServices()
-        {
-            if (_serviceProvider == null)
-            {
-                return;
-            }
-            if (_serviceProvider is IDisposable)
-            {
-                ((IDisposable)_serviceProvider).Dispose();
-            }
-        }
         static void Main(string[] args)
         {
             ILog log = null;
@@ -79,15 +49,15 @@ namespace Comdata.AppSupport.DirectDepositFix
 
         private static void ResolveObjects(ref PPOLDirectDepositFix fix, ref ILog log)
         {
-            var container = new UnityContainer();
-            container.RegisterType<ILog, TextLogger>(new ContainerControlledLifetimeManager()
-                                                   , new InjectionConstructor(Properties.Settings.Default.LogPath
-                                                                            , Properties.Settings.Default.LoggingThreshold));
-            container.RegisterType<IFileSystem, FileSystemHelper>(new ContainerControlledLifetimeManager());
-            container.RegisterType<PPOLDirectDepositFix>();
-            log = container.Resolve<ILog>();
+            var services = new ServiceCollection();
+            services.AddSingleton<ILog>(new TextLogger(Properties.Settings.Default.LogPath
+                                                      , Properties.Settings.Default.LoggingThreshold));
+            services.AddSingleton<PPOLDirectDepositFix>();
+            _serviceProvider = services.BuildServiceProvider(true);
+
+            log = _serviceProvider.GetService<ILog>();
             log.LogUpdated += Log_LogUpdated;
-            fix = container.Resolve<PPOLDirectDepositFix>();
+            fix = _serviceProvider.GetService<PPOLDirectDepositFix>();
         }
 
         static void Log_LogUpdated(object sender, LogUpdatedEventArgs e)
