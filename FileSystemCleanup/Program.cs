@@ -1,5 +1,6 @@
 ﻿using Comdata.AppSupport.AppTools;
 using System;
+using System.IO;
 
 namespace Comdata.AppSupport.FileSystemCleanup
 {
@@ -11,7 +12,13 @@ namespace Comdata.AppSupport.FileSystemCleanup
 
         static void Main(string[] args)
         {
-            Settings = new FileSystemCleanupSettings(@".\FileSystemCleanupConfig.xml");
+            var configFile = @".\FileSystemCleanupConfig.xml";
+
+            if (args.Length == 1)
+                if (File.Exists(args[0]))
+                    configFile = args[0];
+
+            Settings = new FileSystemCleanupSettings(configFile);
             Log = new TextLogger(Settings.LogPath, Settings.LoggingSeverityLevel);
             FiList = new FileInfoList(Log);
 
@@ -19,6 +26,7 @@ namespace Comdata.AppSupport.FileSystemCleanup
             {
                 FileSystemCleanup cleanup = new FileSystemCleanup(Log, Settings, FiList);
 
+                Log.Write("Configuration loaded from: {0}.", configFile);
                 Log.Write("Starting FileSystemCleanup...");
                 cleanup.Execute();
                 Log.Write("Finished FileSystemCleanup.");

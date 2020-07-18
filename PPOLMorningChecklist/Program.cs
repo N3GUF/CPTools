@@ -1,5 +1,5 @@
 ﻿using Comdata.AppSupport.AppTools;
-using Microsoft.Practices.Unity;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
 
@@ -47,18 +47,19 @@ namespace Comdata.AppSupport.PPOLMorningChecklist
 
         private static void ResolveObjects(ref PPOLMorningChecklist checklist, ref ILog log)
         {
-            var container = new UnityContainer();
-            container.RegisterType<ISettings, ChecklistSettings>(new ContainerControlledLifetimeManager()
-                                                               , new InjectionConstructor(@".\config.xml"));
-            var settings = container.Resolve<ISettings>();
-            container.RegisterType<ILog, TextLogger>(new ContainerControlledLifetimeManager()
-                                                   , new InjectionConstructor(settings.LogPath
-                                                                            , settings.LoggingSeverityLevel));
-            container.RegisterType<IFileSystem, FileSystemHelper>(new ContainerControlledLifetimeManager());
-            container.RegisterType<PPOLMorningChecklist>();
-            log = container.Resolve<ILog>();
+            var services = new ServiceCollection();
+            services.AddSingleton<ISettings>(p => new ChecklistSettings(@".\config.xml"));
+            var provider = services.BuildServiceProvider();
+            var settings = provider.GetService<ISettings>();
+
+            services.AddSingleton<ILog>(p => new TextLogger(settings.LogPath, settings.LoggingSeverityLevel));
+            provider = services.BuildServiceProvider();
+            log = provider.GetService<ILog>();
             log.LogUpdated += Log_LogUpdated;
-            checklist = container.Resolve<PPOLMorningChecklist>();
+            services.AddTransient<IFileSystem, FileSystemHelper>();
+            services.AddTransient<PPOLMorningChecklist>();
+            provider = services.BuildServiceProvider();
+            checklist = provider.GetService<PPOLMorningChecklist>();
         }
 
         static void Log_LogUpdated(object sender, LogUpdatedEventArgs e)

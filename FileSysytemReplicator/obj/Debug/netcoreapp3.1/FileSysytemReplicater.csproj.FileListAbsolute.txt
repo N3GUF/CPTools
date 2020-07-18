@@ -42,3 +42,4 @@ C:\repos\CPTools\FileSysytemReplicator\bin\Debug\netcoreapp3.1\AppTools.dll
 C:\repos\CPTools\FileSysytemReplicator\bin\Debug\netcoreapp3.1\AppTools.pdb
 C:\repos\CPTools\FileSysytemReplicator\obj\Debug\netcoreapp3.1\FileSysytemReplicater.csproj.CopyComplete
 C:\repos\CPTools\FileSysytemReplicator\obj\Debug\netcoreapp3.1\FileSysytemReplicater.genruntimeconfig.cache
+C:\repos\CPTools\FileSysytemReplicator\obj\Debug\netcoreapp3.1\FileSysytemReplicater.csprojAssemblyReference.cache

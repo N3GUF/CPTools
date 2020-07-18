@@ -35,8 +35,8 @@ namespace Comdata.AppSupport.PPOLMorningChecklist
             problemsFound += checkForDailyInvoices();               // Step 10: Check for invoices in \Outbound\Invoices & Invoices_xl
             problemsFound += checkVariousFolders();                 // Step 11: Check Various folders for files left behind
 
-            if (displayLog)
-                Process.Start(this.Log.LogPathname);                // Display the log
+            //if (displayLog)
+            //    Process.Start(@"cmd.exe -c", this.Log.LogPathname); // Display the log
         }
 
         /// <summary>
