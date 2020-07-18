@@ -45,7 +45,6 @@ C:\repos\CDNAppSupport\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemClean
 C:\repos\CDNAppSupport\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemCleanup.pdb
 C:\repos\CDNAppSupport\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemCleanup.genruntimeconfig.cache
 C:\repos\CDNAppSupport\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemCleanup.csprojAssemblyReference.cache
-C:\repos\CPTools\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemCleanup.csprojAssemblyReference.cache
 C:\repos\CPTools\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemCleanup.AssemblyInfoInputs.cache
 C:\repos\CPTools\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemCleanup.AssemblyInfo.cs
 C:\repos\CPTools\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemCleanup.csproj.CoreCompileInputs.cache
@@ -61,3 +60,4 @@ C:\repos\CPTools\FileSystemCleanup\bin\Debug\netcoreapp3.1\AppTools.dll
 C:\repos\CPTools\FileSystemCleanup\bin\Debug\netcoreapp3.1\AppTools.pdb
 C:\repos\CPTools\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemCleanup.csproj.CopyComplete
 C:\repos\CPTools\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemCleanup.genruntimeconfig.cache
+C:\repos\CPTools\FileSystemCleanup\obj\Debug\netcoreapp3.1\FileSystemCleanup.csprojAssemblyReference.cache

@@ -39,7 +39,7 @@ namespace Comdata.AppSupport.FileSystemCleanup
                         deleteEmptyFolders(folder);
 
                     if (folder.ArchiveAfterDays >= 0)
-                    {
+                    {vscode-settings:settingseditor
                         DispatchCleanup(folder, operation.Archive, _settings.Threads);
                         deleteEmptyFolders(folder);
                     }

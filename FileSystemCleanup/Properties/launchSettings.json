@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "FileSystemCleanup": {
+      "commandName": "Project"
+    }
+  }
+}

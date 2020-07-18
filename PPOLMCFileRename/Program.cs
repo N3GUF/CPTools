@@ -1,10 +1,10 @@
 ﻿using Comdata.AppSupport.AppTools;
-using Microsoft.Practices.Unity;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.IO;
 using System.Reflection;
 
-namespace Comdata.AppSupport.PPOLMCFileRename               
+namespace Comdata.AppSupport.PPOLMCFileRename
 {
     class Program
     {
@@ -59,27 +59,27 @@ namespace Comdata.AppSupport.PPOLMCFileRename
         {
             if (!File.Exists(configFile))
             {
-                var asmDir = System.Reflection.Assembly.GetEntryAssembly().Location;
+                var asmDir = Assembly.GetEntryAssembly().Location;
                 configFile = Path.Combine(asmDir, configFile);
 
                 if (!File.Exists(configFile))
                     throw new FileNotFoundException(string.Format("{0} not found.", configFile));
-            } 
+            }
 
-            var container = new UnityContainer();
-            container.RegisterType<ISettings, Settings>(new ContainerControlledLifetimeManager()
-                                                               , new InjectionConstructor(configFile));
-            var settings = container.Resolve<ISettings>();
+            var services = new ServiceCollection();
+            services.AddSingleton<ISettings>(p => new Settings(configFile));
+            var provider = services.BuildServiceProvider();
+            var settings = provider.GetService<ISettings>();
 
-            container.RegisterType<ILog, TextLogger>(new ContainerControlledLifetimeManager()
-                                                   , new InjectionConstructor(settings.LogPath
-                                                                            , settings.LoggingSeverityLevel));
-            log = container.Resolve<ILog>();
+            services.AddSingleton<ILog>(p => new TextLogger(settings.LogPath, settings.LoggingSeverityLevel));
+            provider = services.BuildServiceProvider();
+            log = provider.GetService<ILog>();
 
             log.Write(Severity.Debug, "Configuration settings have been loaded from: {0}.", configFile);
 
-            container.RegisterType<PPOLMCFileRename>();
-            rename = container.Resolve<PPOLMCFileRename>();
+            services.AddTransient<PPOLMCFileRename>();
+            provider = services.BuildServiceProvider();
+            rename = provider.GetService<PPOLMCFileRename>();
         }
     }
 }
